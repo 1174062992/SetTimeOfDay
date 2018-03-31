@@ -15,6 +15,14 @@
 		3E2F475E206F810B00174B77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F475D206F810B00174B77 /* main.m */; };
 		3E2F4768206F810B00174B77 /* SetTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F4767206F810B00174B77 /* SetTimeTests.m */; };
 		3E2F4773206F810B00174B77 /* SetTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F4772206F810B00174B77 /* SetTimeUITests.m */; };
+		3E2F4785206F815400174B77 /* HWOptionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F4781206F815400174B77 /* HWOptionButton.m */; };
+		3E2F4786206F815400174B77 /* HWCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F4782206F815400174B77 /* HWCalendar.m */; };
+		3E2F478E206F81A400174B77 /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F4788206F81A400174B77 /* bottom@2x.png */; };
+		3E2F478F206F81A400174B77 /* bottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F4789206F81A400174B77 /* bottom@3x.png */; };
+		3E2F4790206F81A400174B77 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F478A206F81A400174B77 /* left@2x.png */; };
+		3E2F4791206F81A400174B77 /* left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F478B206F81A400174B77 /* left@3x.png */; };
+		3E2F4792206F81A400174B77 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F478C206F81A400174B77 /* right@2x.png */; };
+		3E2F4793206F81A400174B77 /* right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F478D206F81A400174B77 /* right@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		3E2F476E206F810B00174B77 /* SetTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2F4772206F810B00174B77 /* SetTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetTimeUITests.m; sourceTree = "<group>"; };
 		3E2F4774206F810B00174B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2F4781206F815400174B77 /* HWOptionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWOptionButton.m; sourceTree = "<group>"; };
+		3E2F4782206F815400174B77 /* HWCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCalendar.m; sourceTree = "<group>"; };
+		3E2F4783206F815400174B77 /* HWOptionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWOptionButton.h; sourceTree = "<group>"; };
+		3E2F4784206F815400174B77 /* HWCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCalendar.h; sourceTree = "<group>"; };
+		3E2F4788206F81A400174B77 /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@2x.png"; sourceTree = "<group>"; };
+		3E2F4789206F81A400174B77 /* bottom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@3x.png"; sourceTree = "<group>"; };
+		3E2F478A206F81A400174B77 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
+		3E2F478B206F81A400174B77 /* left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@3x.png"; sourceTree = "<group>"; };
+		3E2F478C206F81A400174B77 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
+		3E2F478D206F81A400174B77 /* right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,8 @@
 		3E2F474D206F810B00174B77 /* SetTime */ = {
 			isa = PBXGroup;
 			children = (
+				3E2F4787206F81A400174B77 /* Image */,
+				3E2F4780206F814300174B77 /* HWCalendar */,
 				3E2F474E206F810B00174B77 /* AppDelegate.h */,
 				3E2F474F206F810B00174B77 /* AppDelegate.m */,
 				3E2F4751206F810B00174B77 /* ViewController.h */,
@@ -130,6 +150,30 @@
 				3E2F4774206F810B00174B77 /* Info.plist */,
 			);
 			path = SetTimeUITests;
+			sourceTree = "<group>";
+		};
+		3E2F4780206F814300174B77 /* HWCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F4784206F815400174B77 /* HWCalendar.h */,
+				3E2F4782206F815400174B77 /* HWCalendar.m */,
+				3E2F4783206F815400174B77 /* HWOptionButton.h */,
+				3E2F4781206F815400174B77 /* HWOptionButton.m */,
+			);
+			path = HWCalendar;
+			sourceTree = "<group>";
+		};
+		3E2F4787206F81A400174B77 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F4788206F81A400174B77 /* bottom@2x.png */,
+				3E2F4789206F81A400174B77 /* bottom@3x.png */,
+				3E2F478A206F81A400174B77 /* left@2x.png */,
+				3E2F478B206F81A400174B77 /* left@3x.png */,
+				3E2F478C206F81A400174B77 /* right@2x.png */,
+				3E2F478D206F81A400174B77 /* right@3x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E2F475B206F810B00174B77 /* LaunchScreen.storyboard in Resources */,
+				3E2F478F206F81A400174B77 /* bottom@3x.png in Resources */,
+				3E2F4793206F81A400174B77 /* right@3x.png in Resources */,
+				3E2F4791206F81A400174B77 /* left@3x.png in Resources */,
 				3E2F4758206F810B00174B77 /* Assets.xcassets in Resources */,
 				3E2F4756206F810B00174B77 /* Main.storyboard in Resources */,
+				3E2F478E206F81A400174B77 /* bottom@2x.png in Resources */,
+				3E2F4790206F81A400174B77 /* left@2x.png in Resources */,
+				3E2F4792206F81A400174B77 /* right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +317,9 @@
 			files = (
 				3E2F4753206F810B00174B77 /* ViewController.m in Sources */,
 				3E2F475E206F810B00174B77 /* main.m in Sources */,
+				3E2F4786206F815400174B77 /* HWCalendar.m in Sources */,
 				3E2F4750206F810B00174B77 /* AppDelegate.m in Sources */,
+				3E2F4785206F815400174B77 /* HWOptionButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = SetTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caojicom.com.SetTime;
@@ -444,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = SetTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caojicom.com.SetTime;
